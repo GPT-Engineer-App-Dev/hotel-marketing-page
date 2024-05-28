@@ -10,7 +10,7 @@ const Index = () => {
             <a href="#home" className="text-gray-700 hover:text-gray-900">
               Home
             </a>
-            <a href="#about" className="text-gray-700 hover:text-gray-900">
+            <a href="/about" className="text-gray-700 hover:text-gray-900">
               About
             </a>
             <a href="#services" className="text-gray-700 hover:text-gray-900">
