@@ -25,7 +25,8 @@ const Index = () => {
 
       <main>
         <section id="home" className="bg-cover bg-center h-screen" style={{ backgroundImage: "url('GPTENG:get_img(hotel exterior)')" }}>
-          <div className="container mx-auto px-6 py-40 text-center text-white">
+          <div className="container mx-auto px-6 py-40 text-center text-white relative">
+            <img src="GPTENG:get_img(hero image)" alt="Hero Image" className="absolute inset-0 w-full h-full object-cover opacity-50" />
             <h2 className="text-4xl font-bold">Welcome to Hotel Paradise</h2>
             <p className="mt-4 text-lg">Experience luxury and comfort in the heart of the city.</p>
             <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700">Book Now</button>
